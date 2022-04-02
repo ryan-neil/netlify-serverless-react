@@ -1,0 +1,15 @@
+{
+  "name": "react-serverless-example-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "nodemon server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
