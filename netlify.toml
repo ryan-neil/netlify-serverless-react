@@ -1,12 +1,16 @@
 # root configuration
 
+[build]
+	publish = "client/build"
+	functions = "functions"
+	command = "npm run build"
+	node_bundler = "esbuild"
+
 [dev]
 	publish = "client"
-	function = "functions"
-
-[functions]
-	# functions configuration (https://docs.netlify.com/configure-builds/file-based-configuration/#functions)
-  directory = "functions"
+	functions = "functions"
+	command = "npm run start"
+	node_bundler = "esbuild"
 
 # users api redirects
 [[redirects]]
