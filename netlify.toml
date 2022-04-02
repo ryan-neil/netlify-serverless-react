@@ -2,9 +2,16 @@
 	base = "client"
 	command = "npm run build"
 	publish = "build"
-	functions = "functions"
 
 [dev]
 	base = "client"
 	command = "npm run start"
-	functions = "functions"
+
+[functions]
+  # Sets a custom directory for Netlify Functions
+  directory = "functions"
+
+[[redirects]]
+	from = "/*"
+	to = "/.netlify/functions/api/:splat"
+	status = 200

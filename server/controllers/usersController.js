@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+// const users = require('../mocks/users.json');
 
 const getAllUsers = async (req, res) => {
   const url = 'https://jsonplaceholder.typicode.com/users';

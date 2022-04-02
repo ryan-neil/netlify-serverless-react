@@ -4,14 +4,8 @@ const getAllUsers = require('../controllers/usersController');
 const router = express.Router();
 
 // routes
-router.get('/', (req, res) => {
-  return res.send('Hello from the inside...');
-});
-
-//  get all users
-router.get('/users', getAllUsers);
-
-//  get single user
-router.get('/users/:id', (req, res) => {});
+router.get('/', (req, res) => res.send('Hello from the inside...')); // api home
+router.get('/users', getAllUsers); // get all users
+router.get('/users/:id', (req, res) => {}); // get single user
 
 module.exports = router;
