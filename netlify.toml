@@ -1,16 +1,14 @@
-[build]
-	base = "client"
-	command = "npm run build"
-	publish = "build"
+# root configuration
 
 [dev]
-	base = "client"
-	command = "npm run start"
+	publish = "client"
+	function = "functions"
 
 [functions]
-  # Sets a custom directory for Netlify Functions
+	# functions configuration (https://docs.netlify.com/configure-builds/file-based-configuration/#functions)
   directory = "functions"
 
+# users api redirects
 [[redirects]]
 	from = "/*"
 	to = "/.netlify/functions/api/:splat"

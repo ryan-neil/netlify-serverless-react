@@ -2,7 +2,6 @@
   "name": "react-serverless-example",
   "version": "1.0.0",
   "description": "Create React App deployed on Netlify.",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryan-neil/react-serverless-example.git"
@@ -16,6 +15,13 @@
   ],
   "author": "Ryan Neil",
   "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7",
+    "serverless-http": "^2.7.0"
+  },
   "bugs": {
     "url": "https://github.com/ryan-neil/react-serverless-example/issues"
   },
