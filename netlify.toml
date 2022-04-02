@@ -1,9 +1,8 @@
 [build]
+	base = "client"
 	command = "npm run build"
 	publish = "build"
-	node_bundler = "esbuild"
 
 [dev]
+	base = "client"
 	command = "npm run start"
-	publish = "client"
-	node_bundler = "esbuild"

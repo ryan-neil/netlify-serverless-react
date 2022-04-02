@@ -1,1 +1,1 @@
-# Netlify React Serverless Functions Example App
+# Netlify React Serverless Functions Example (Frontend)
