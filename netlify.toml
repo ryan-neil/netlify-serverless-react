@@ -9,7 +9,6 @@
 [dev]
 	publish = "client"
 	functions = "functions"
-	command = "npm run start"
 	node_bundler = "esbuild"
 
 # users api redirects
