@@ -49,6 +49,9 @@ h3 {
   margin-top: 1.5em;
   color: var(--secondary-text-color);
 }
+p {
+  line-height: 1.6rem;
+}
 code,
 pre {
   background-color: #424857;

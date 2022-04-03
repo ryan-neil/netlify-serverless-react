@@ -3,11 +3,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>React Serverless Functions Example</h1>
+      <h1>
+        Netlify Serverless Functions: <i>React</i>
+      </h1>
 
       <p>
-        This is a simple example of how we can add Netlify serverless functions
-        to our <b>React</b> applications.
+        This is a simple training application of how we can add <b>Netlify</b>{' '}
+        serverless functions to our <b>React</b> apps.
+      </p>
+
+      <p>
+        For this example we will be building a simple Express API that we can
+        call to receive users data.
       </p>
       <h2>Examples</h2>
       <ul>
@@ -22,6 +29,12 @@ function App() {
             Users
           </a>{' '}
           ( <code>/.netlify/functions/api/users</code> )
+        </li>
+        <li>
+          <a href="/.netlify/functions/api/users/2" target="_blank">
+            User
+          </a>{' '}
+          ( <code>/.netlify/functions/api/users/2</code> )
         </li>
       </ul>
 
@@ -38,6 +51,12 @@ function App() {
             Users
           </a>{' '}
           ( <code>/api/users</code> )
+        </li>
+        <li>
+          <a href="/api/users/2" target="_blank">
+            User
+          </a>{' '}
+          ( <code>/api/users/2</code> )
         </li>
       </ul>
     </div>
