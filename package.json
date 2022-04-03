@@ -1,29 +1,45 @@
 {
-  "name": "react-serverless-example",
-  "version": "1.0.0",
-  "description": "Create React App deployed on Netlify.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ryan-neil/react-serverless-example.git"
+  "name": "netlify-serverless-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon server/server-local"
   },
-  "keywords": [
-    "react",
-    "node",
-    "express",
-    "netlify",
-    "serverless"
-  ],
-  "author": "Ryan Neil",
-  "license": "MIT",
-  "scripts": {},
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "node-fetch": "^2.6.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
     "serverless-http": "^2.7.0"
   },
-  "bugs": {
-    "url": "https://github.com/ryan-neil/react-serverless-example/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   },
-  "homepage": "https://github.com/ryan-neil/react-serverless-example#readme"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

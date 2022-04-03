@@ -1,17 +1,11 @@
-# root configuration
-
 [build]
-	publish = "client/build"
-	functions = "functions"
 	command = "npm run build"
-	node_bundler = "esbuild"
+	publish = "build"
+	functions = "functions"
 
 [dev]
-	publish = "client"
 	functions = "functions"
-	node_bundler = "esbuild"
 
-# users api redirects
 [[redirects]]
 	from = "/*"
 	to = "/.netlify/functions/api/:splat"

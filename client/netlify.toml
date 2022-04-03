@@ -1,8 +1,0 @@
-# client configuration
-
-[build]
-	command = "npm run build"
-	publish = "build"
-
-[dev]
-	command = "npm run start"

@@ -23,12 +23,6 @@ function App() {
           </a>{' '}
           ( <code>/.netlify/functions/api/users</code> )
         </li>
-        <li>
-          <a href="/.netlify/functions/api/users/3" target="_blank">
-            User
-          </a>{' '}
-          ( <code>/.netlify/functions/api/users/3</code> )
-        </li>
       </ul>
 
       <h3>With redirects</h3>
@@ -44,12 +38,6 @@ function App() {
             Users
           </a>{' '}
           ( <code>/api/users</code> )
-        </li>
-        <li>
-          <a href="/api/users/3" target="_blank">
-            User
-          </a>{' '}
-          ( <code>/api/users/3</code> )
         </li>
       </ul>
     </div>
