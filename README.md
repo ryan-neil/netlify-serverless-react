@@ -6,4 +6,4 @@ This is a Create React App deployed on Netlify.
 
 ### Resources:
 
-- [Creating API using Netlify functions](https://blog.kiprosh.com/api-using-netlify-functions/): kiprosh
+- [React Production Deployment with Netlify with Routing](https://blog.bitsrc.io/react-production-deployment-part-1-netlify-703686631dd1): Medium

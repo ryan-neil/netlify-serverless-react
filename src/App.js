@@ -13,8 +13,8 @@ function App() {
       </p>
 
       <p>
-        For this example we will be building a simple Express API that we can
-        call to receive users data.
+        For this example we will be building a <i>serverless</i> Express API
+        that we can call from our frontend to receive some mock users data.
       </p>
       <h2>Examples</h2>
       <ul>
