@@ -9,6 +9,7 @@ app.use(express.json());
 
 app.use('/api', usersRoute);
 
+// DJ, spin that sh*t...
 const PORT = 9001;
 app.listen(PORT || 9001, () => {
   console.log(`Server is running on: http://localhost:${PORT}`);
