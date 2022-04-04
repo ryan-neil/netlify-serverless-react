@@ -11,8 +11,8 @@ const Home = () => {
       </p>
 
       <p>
-        For this example we will be building a <i>serverless</i> Express API
-        that we can call from our frontend to receive some mock users data.
+        For this example we will be building a <i>serverless</i> <b>Express</b>{' '}
+        API that we can call from our frontend to receive some mock users data.
       </p>
 
       <p>Test it out below!</p>

@@ -1,6 +1,6 @@
 const Card = ({ user }) => {
   return (
-    <article className="Article">
+    <article className="Card">
       <h3>
         {user.name} ({user.username})
       </h3>
