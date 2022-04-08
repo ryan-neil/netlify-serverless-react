@@ -81,4 +81,5 @@ pre {
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: #20252c;
+  border-top: 3px solid var(--accent-color);
 }
